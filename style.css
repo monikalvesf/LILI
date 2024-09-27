@@ -1,0 +1,280 @@
+html, body {
+  
+  background-color: brack;
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  width: 100vw;
+    background-color: rgb(111,233,192);
+  border-radius: 8px;
+  
+}
+
+.slide{
+  min-width: 100vw;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  aling-items: center;
+  scroll-snap-align: center;
+}
+
+
+
+.principal{
+  background-image: url("fundo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  dlay: flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  flex-direction: column;
+
+}
+
+.titulo{
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.imagem{
+  height: 300px;
+margin-left: 190px;
+}
+
+
+  *{margin: 0;
+  padding: 0;
+  }
+
+.botao{
+  background-color: rgb(250,178,191);
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left: 250px;
+   font-family: "Vollkorn", serif;
+}
+
+.botao2{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left:250px;
+   font-family: "Vollkorn", serif;
+
+}
+
+.botao3{
+  background-color: rgb(250,178,191);
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+   font-family: "Vollkorn", serif;
+}
+
+
+.aviso{
+  font-size: 15px;
+  color: silver;
+  margin-left: 250px;
+  
+}
+
+.botao:hover{
+  background-color: #FDA1C1;
+  color: white;
+}
+/* PAGINA 2 */
+.menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: rgb(111,233,192);
+}
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px grey;
+  overflow: hidden;
+}
+
+.menutitulo{
+  text-align: center;
+  font-size: 60px;
+  color: #EE437D;
+  margin-bottom: 20px;
+  text-decoration: double;
+  background-color: rgb(111,233,192);
+   border-radius: 8px;
+  text-shadow: 0 4px 8px grey;
+   text-align: center;
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+  font-size: 25px;
+  color: black;
+}
+
+.descricao2{
+  font-size: 13px;
+  color: gray;
+  font-family: "Vollkorn", serif;
+  text-align: justify;
+}
+
+.preco{
+  font-size: 25px;
+  color: #E91E63;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*PAGINA 3*/
+
+.titulo2{
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+     font-family: "Vollkorn", serif;
+  
+}
+
+.imagem2{
+  width: 100%;
+    border-radius: 20px;
+  
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.descricao{
+   font-family: "Vollkorn", serif;
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.titulo3{
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+  
+}
+
+.dispositivos img{
+  height: 100px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size: 35px;
+  color: white;
+  padding: 0 50px;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.lista, .rodapelista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink a:hover {
+  color: pink;
+}
+
+.listalink a:active{
+  color: purple;
+}
+
+.rodapetexto{
+  margin: 1em 0;
+    color: grey;
+  font-size: 20px;
+}
+
+.logo2{
+  height: 100px;
+}
